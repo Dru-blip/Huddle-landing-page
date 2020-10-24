@@ -1,0 +1,56 @@
+body{
+    background-color:hsl(257, 40%, 49%);
+    background-image:url("images/bg-mobile.svg");
+    background-repeat:no-repeat;
+    background-size:60%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+}
+
+.images{
+    width:50%;
+    margin:100px 100px 0px 120px;
+}
+
+.text{
+    margin-top:130px;
+    margin-right:120px;
+    padding: 20px;
+}
+
+h1{
+    color:white;
+    font-weight:bold;
+}
+p{
+    color:white;
+    font-size:16px;
+}
+
+button{
+    background-color:white;
+    color:hsl(257, 40%, 49%);
+    border: none;
+    border-radius:20px;
+    height:40px;
+    width:120px;
+    margin-top: 20px;
+}
+
+.fb-icon{
+    color:white;
+    margin-right:30px;
+}
+
+footer{
+    margin-left:1250px;
+    margin-bottom: 50px;
+}
+
+.header{
+    margin-left:120px;
+}
